@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    
+    background-image: url('https://images5.alphacoders.com/121/1217525.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#contenitorebody {
+    text-align: center;
+}
+
+#listatask li.completed {
+    text-decoration: line-through;
+}
+
+#listatask button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#listatask button:hover {
+    background-color: #c82333;
+}
+
+.icon-container {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#task {
+    width: 300px;
+    font-size: 18px;
+}

@@ -1,0 +1,83 @@
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    align-items: center;
+    align-content: center;
+    background-color: lightgrey;
+    color: #393d41;
+    font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65;
+    text-align: center;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.logo {
+    background-color:#222f3f ;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+
+#grandlogo {
+height: 5vh;
+padding-left: 15px;
+}
+
+.headerwrapper {
+width: 100%;
+}
+#sovra {
+    background-image:url(../img/bg-image.png);
+    background-repeat: repeat;
+
+}
+
+.navbar {
+    display: block;
+    background-color: #364759;
+    text-align: left;
+}
+
+.nav-a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.arancio {
+    color: white;
+    background-color: #F56600;
+    margin: 3vh;
+    width: 95%;
+    text-align: center;
+}
+
+.schede {
+background-color: white;
+margin: 40px;
+text-align: center;
+}
+
+.img {
+    border-radius: 10%;
+width: 280px;
+height: 300px;
+}
+
+.img2 {
+width: 1570px;
+}
+
+.footer {
+    color: white;
+    background-color: #364759;
+}
+
+#top {
+    color: white;
+    text-decoration: none;
+
+}

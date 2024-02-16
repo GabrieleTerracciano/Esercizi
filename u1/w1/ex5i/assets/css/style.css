@@ -1,0 +1,111 @@
+body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.65rem;
+    color: #393d41;
+    text-align: center;
+
+
+}
+
+
+.titoli {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.2rem;
+    line-height: 2.3rem;
+    color: #25a2c3;
+    margin-top: 75px;
+}
+
+.titolini {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    color: #25a2c3;
+    margin-top: 75px;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    width: 160px;
+    display: block;
+    padding-top: 40px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scatola {
+    background-color: black;
+    width: 520px;
+    height: 130px;
+    margin-inline: -10px;
+    margin-top: -50px;
+}
+
+.primo {
+    position: relative;
+
+}
+
+.sovra {
+    position: absolute;
+    text-align: center;
+}
+
+#linkToEnd {
+    bottom: auto;
+}
+
+#tutto {
+    display: block;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#vaigiu {
+    color: white;
+    background-color: rgb(255, 102, 14);
+    padding-top: 11px;
+    padding-right: 40px;
+    padding-bottom: 11px;
+    padding-left: 40px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.notebook {
+    border-radius: 50%;
+    margin-bottom: -2.3em;
+}
+
+#garanzia {
+    color: white;
+    background-color: rgb(255, 102, 14);
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.side {
+    align-content: center;
+    border: 0.2em solid #dee1e3
+
+}
+#footer{
+    color: white;
+    background-color: #25a2c3 ;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.colorcont{
+    text-decoration: none; 
+    color: white;
+}

@@ -1,0 +1,27 @@
+body {
+    background-image: url(sfondo.png);
+    background-size: cover;
+}
+
+.backgroundbody {
+    background-color: white;
+    margin-left: 20px;
+    margin-right: 20px;
+    border: 2em; color: black;
+}
+
+.testa {
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+}
+
+.lista ul li a:link .lista ul li a:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.lista ul li a::before {
+    content:"\22c6\0020";
+}
+
