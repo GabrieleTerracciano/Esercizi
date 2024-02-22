@@ -1,0 +1,72 @@
+html, body {
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #742305;
+}
+
+@media screen and (max-width: 480px) {
+  header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  header img {
+    max-width: 60px;
+    height: auto;
+  }
+
+  .card {
+    box-sizing: border-box;
+    background-color: #fdf6e3;
+    display: flex;
+    border-radius: 12%;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+    margin-bottom: 10px; /* Aggiungi spazio tra .card e lo span */
+  }
+  }
+
+  main div img {
+    max-width: 100%;
+    border-top-left-radius: 12%;
+    border-top-right-radius: 12%;
+  }
+
+  main div button {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #742305;
+    padding-top: 8px;
+    padding-left: 40px;
+    padding-bottom: 8px;
+    padding-right: 40px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    max-width: 100%;
+    background-color: #FCDD87;
+    border-radius: 20%;
+  }
+
+  .biohoney {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-evenly;
+  }
+}
+
+span {
+  display: block;
+  text-align: center;
+}
+}
