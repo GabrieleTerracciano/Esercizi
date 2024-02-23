@@ -1,0 +1,115 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+nav {
+  background-color: #ffc017;
+  height: 8vh;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  margin: 20px;
+  margin-left: 150px;
+}
+
+nav {
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav ul li:last-child {
+  margin-right: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 120px;
+  height: 35px;
+  border-radius: 50px;
+}
+
+.orange {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffc017;
+}
+
+main div div a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  width: 150px;
+  height: 35px;
+  border-radius: 50px;
+  margin-left: 150px;
+}
+
+main a {
+  font-size: 1.1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.titolo {
+  font-family: "Spectral", serif;
+  font-weight: 400;
+  font-size: 4.5rem;
+  margin-left: 150px;
+}
+
+main div div p {
+  font-size: 1.3rem;
+  margin-bottom: 50px;
+  margin-left: 150px;
+}
+
+.trending {
+    margin-left: -30px;
+}
+
+.divnumeri {
+  opacity: 10%;
+  font-weight: 900;
+}
+
+.schede {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+div.schede {
+    font-size: 0.6em;
+}
+
