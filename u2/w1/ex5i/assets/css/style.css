@@ -7,9 +7,9 @@ body {
 }
 
 header {
-    position: sticky;
-    top: 0px;
-    z-index: 1;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
 }
 
 nav {
@@ -92,24 +92,352 @@ main div div p {
   margin-left: 150px;
 }
 
-.trending {
-    margin-left: -30px;
-}
-
-.divnumeri {
-  opacity: 10%;
-  font-weight: 900;
-}
-
 .schede {
-  width: 80%;
+  margin-top: 0px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  width: 90%;
   display: flex;
+  justify-content: center;
   justify-content: space-between;
-  align-items: center;
+  align-items: baseline;
   flex-wrap: wrap;
 }
 
-div.schede {
-    font-size: 0.6em;
+.schede div {
+  line-height: 1.5;
 }
 
+.scheda1 {
+  width: 32%;
+  overflow: hidden;
+}
+
+.scheda1:first-child{
+margin-top: 20px;
+}
+
+.scheda1 div:nth-child(3){
+  font-size: 0.7rem;
+}
+
+.scheda1 div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.7rem;
+}
+
+.scheda2 {
+  width: 32%;
+  overflow: hidden;
+}
+
+.scheda2 div:nth-child(2){
+  font-size: 0.7rem;
+}
+
+.scheda2 div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.7rem;
+}
+
+.scheda3 {
+  width: 32%;
+  overflow: hidden;
+}
+
+.scheda3 div:nth-child(2){
+  font-size: 0.7rem;
+}
+
+.scheda3 div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.7rem;
+}
+
+.scheda4 {
+  width: 32%;
+  overflow: hidden;
+}
+
+.scheda4 div:nth-child(2){
+  font-size: 0.7rem;
+}
+
+.scheda4 div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.7rem;
+}
+
+.scheda5 {
+  width: 32%;
+  overflow: hidden;
+}
+
+.scheda5 div:nth-child(2){
+  font-size: 0.7rem;
+}
+
+.scheda5 div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.7rem;
+}
+
+.scheda6 {
+  width: 32%;
+  overflow: hidden;
+}
+
+.scheda6 div:nth-child(2){
+  font-size: 0.7rem;
+}
+
+.scheda6 div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7rem;
+}
+
+.divnumeri p {
+  opacity: 10%;
+  font-weight: 900;
+  margin-right: 10px;
+  float: left;
+  font-size: 2rem;
+}
+
+.loghetti img {
+  width: 4%;
+  border-radius: 100%;
+}
+
+.loghetti {
+  font-size: 0.7rem;
+}
+
+.loghettiquadrati img {
+  width: 4%;
+  border-radius: 20%;
+}
+
+.loghettiquadrati {
+  font-size: 0.7rem;
+}
+
+.trending{
+  display: flex;
+  margin-left: 60px;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.schede div {
+  line-height: 0.9rem;
+}
+
+.info {
+  width: 31%;
+  height: 22vh;
+  display: flex;
+  margin: 20px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.info a {
+  text-decoration: none;
+  color: grey;
+  border: 1px solid lightgrey;
+  padding: 7px;
+}
+
+aside section .info {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+
+aside section .info div {
+  margin-top: 20px;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+.info2 a {
+  text-decoration: none;
+  color: grey;
+  padding: 7px;
+  line-height: 1.8rem;
+}
+
+aside section .info2 {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+
+.info2 {
+  width: 40%;
+  display: flex;
+  margin: 20px;
+}
+
+
+.articoli {
+  margin-top: 0px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  flex-wrap: wrap;
+}
+
+.articoli div {
+  line-height: 1.5;
+}
+
+.articolo1 {
+  width: 70%;
+  overflow: hidden;
+}
+
+.articolo1:first-child{
+margin-top: 20px;
+}
+
+.articolo1 div:nth-child(2){
+  font-size: 0.7rem;
+}
+
+.articolo1 div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.7rem;
+}
+
+.articolo2 {
+  width: 70%;
+  overflow: hidden;
+}
+
+.articolo2 div:nth-child(2){
+  font-size: 0.7rem;
+}
+
+.articolo2 div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.7rem;
+}
+
+.articolo3 {
+  width: 70%;
+  overflow: hidden;
+}
+
+.articolo3 div:nth-child(2){
+  font-size: 0.7rem;
+}
+
+.articolo3 div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.7rem;
+}
+
+.articolo4 {
+  width: 70%;
+  overflow: hidden;
+}
+
+.articolo4 div:nth-child(2){
+  font-size: 0.7rem;
+}
+
+.articolo4 div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.7rem;
+}
+
+.articolo5 {
+  width: 70%;
+  overflow: hidden;
+}
+
+.articolo5 div:nth-child(2){
+  font-size: 0.7rem;
+}
+
+.articolo5 div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 0.7rem;
+}
+
+.articolo6 {
+  width: 70%;
+  overflow: hidden;
+}
+
+.articolo6 div:nth-child(2){
+  font-size: 0.7rem;
+}
+
+.articolo6 div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7rem;
+}
+
+.articolo7 {
+  width: 70%;
+  overflow: hidden;
+}
+
+.articolo7 div:nth-child(2){
+  font-size: 0.7rem;
+}
+
+.articolo7 div:last-child {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.7rem;
+}
+
+.immagini {
+  float: right;
+  margin: 10px;
+  margin-left: 40px;
+}
+
+.immagini img {
+  width: 60%;
+}
+
+.tempolettura {
+  color: grey;
+}
+
+.articoli, .info {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+aside p {
+  color: grey;
+}
