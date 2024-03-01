@@ -1,0 +1,20 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+#bordi {
+    border: 1px solid white;
+    padding: 6px;
+}
+
+.carousel-item img {
+    opacity: 0.25;
+}
+
+.carousel-item img:hover {
+    transform:scale(1.1);
+    opacity: 1;
+}
