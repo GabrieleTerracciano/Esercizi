@@ -1,0 +1,27 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+}
+
+#books-container {
+  display: flex;
+  align-items: center;
+}
+
+p,
+h5,
+span,
+a {
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
