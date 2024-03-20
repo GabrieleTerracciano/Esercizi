@@ -2,7 +2,7 @@ const dataURL = 'https://striveschool-api.herokuapp.com/api/product/';
 const API_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2NWVhZTAyZjJkN2IxMTAwMTkwZTZlM2MiLCJpYXQiOjE3MDk4OTU2NzgsImV4cCI6MTcxMTEwNTI3OH0.esGM-nl5acuXTEJ6kjOOe4uHSJMD_vx-Up5yLNQAiig';
 const mioArrayVuoto = [];
 
-window.addEventListener('load', init);
+window.addEventListener('load', function);
 
 function init() {
 }
