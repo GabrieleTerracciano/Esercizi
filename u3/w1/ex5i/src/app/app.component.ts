@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { ModelJson } from 'src/models/model-json';
 
 @Component({
   selector: 'app-root',
@@ -7,12 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ex5i';
-  posts!: Post[];
+  dati!: ModelJson[];
 
     constructor() {
-        this.getPosts().then((posts) => {
-            this.posts = posts; 
-            for brandAuto
+        this.getPosts().then((dati) => {
+            this.dati = dati; 
         });
     }
 
@@ -20,5 +20,4 @@ export class AppComponent {
         let response = await fetch('../../assets/dbex5i.json');
         let data = await response.json();
         return data;
-}
-
+}}
