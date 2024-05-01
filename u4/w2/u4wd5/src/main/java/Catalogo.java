@@ -1,11 +1,11 @@
 public class Catalogo {
-    private Integer isbm;
+    private Integer isbn;
     private String title;
     private Integer annoPubblicazione;
     private Integer numeroPagine;
 
-    public Catalogo(Integer isbm, String title, Integer numeroPagine, Integer annoPubblicazione) {
-        this.isbm = isbm;
+    public Catalogo(Integer isbn, String title, Integer numeroPagine, Integer annoPubblicazione) {
+        this.isbn = isbn;
         this.title = title;
         this.numeroPagine = numeroPagine;
         this.annoPubblicazione = annoPubblicazione;
@@ -15,8 +15,8 @@ public class Catalogo {
         return annoPubblicazione;
     }
 
-    public Integer getIsbm() {
-        return isbm;
+    public Integer getIsbn() {
+        return isbn;
     }
 
     public String getTitle() {
@@ -42,7 +42,7 @@ public class Catalogo {
     @Override
     public String toString() {
         return "Catalogo{" +
-                "isbm=" + isbm +
+                "isbn=" + isbn +
                 ", title='" + title + '\'' +
                 ", annoPubblicazione=" + annoPubblicazione +
                 ", numeroPagine=" + numeroPagine +

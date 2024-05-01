@@ -3,8 +3,8 @@ public class Main {
     public static void main(String[] args) {
         Archivio archivio = new Archivio();
         Libro l1 = new Libro(1,"titolo1",165,2015,"Horror","Gianfranco");
-        Libro l2 = new Libro(1,"titolo2",165,2015,"Horror","Gianfranco");
-        Libro l3 = new Libro(2,"titolo3",363,1995,"Horror","Gianfranco");
+        Libro l2 = new Libro(1,"titolo2",165,2015,"Horror","Paolo");
+        Libro l3 = new Libro(2,"titolo3",363,1995,"Horror","Giulia");
         Libro l4 = new Libro(3,"titolo4",165,2013,"Horror","Gianfranco");
         Libro l5 = new Libro(4,"titolo5",165,2006,"Horror","Gianfranco");
 
@@ -24,5 +24,15 @@ public class Main {
         archivio.aggiungiElemento(r3);
         archivio.aggiungiElemento(r4);
         archivio.aggiungiElemento(r5);
+
+        archivio.rimuoviElemento(6);
+        archivio.rimuoviElemento(9);
+
+        System.out.println(archivio.ricercaPerIsbn(2));
+
+        archivio.ricercaPerAnno(2017).forEach(System.out::println);
+
+
+        archivio.ricercaPerAutore("Gianfranco").forEach(System.out::println);
     }
 }

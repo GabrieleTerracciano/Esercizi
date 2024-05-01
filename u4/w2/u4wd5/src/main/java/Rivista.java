@@ -2,8 +2,8 @@ public class Rivista extends Catalogo{
 
     private Periodicita periodicita;
 
-    public Rivista(Integer isbm, String title, Integer numeroPagine, Integer annoPubblicazione, Periodicita periodicita) {
-        super(isbm, title, numeroPagine, annoPubblicazione);
+    public Rivista(Integer isbn, String title, Integer numeroPagine, Integer annoPubblicazione, Periodicita periodicita) {
+        super(isbn, title, numeroPagine, annoPubblicazione);
         this.periodicita = periodicita;
     }
 
@@ -18,7 +18,11 @@ public class Rivista extends Catalogo{
     @Override
     public String toString() {
         return "Rivista{" +
-                "periodicita=" + periodicita +
+                "isbn=" + this.getIsbn() +
+                ", titolo='" + this.getTitle() + '\'' +
+                ", annoPubblicazione=" + this.getAnnoPubblicazione() +
+                ", numeroPagine=" + this.getNumeroPagine() +
+                ", periodicita=" + periodicita +
                 '}';
     }
 }

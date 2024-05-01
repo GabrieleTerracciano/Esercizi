@@ -3,8 +3,8 @@ public class Libro extends Catalogo{
     private String autore;
     private String genere;
 
-    public Libro(Integer isbm, String title, Integer numeroPagine, Integer annoPubblicazione, String genere, String autore) {
-        super(isbm, title, numeroPagine, annoPubblicazione);
+    public Libro(Integer isbn, String title, Integer numeroPagine, Integer annoPubblicazione, String genere, String autore) {
+        super(isbn, title, numeroPagine, annoPubblicazione);
         this.genere = genere;
         this.autore = autore;
     }
@@ -28,7 +28,11 @@ public class Libro extends Catalogo{
     @Override
     public String toString() {
         return "Libro{" +
-                "autore='" + autore + '\'' +
+                "isbn=" + this.getIsbn() +
+                ", titolo='" + this.getTitle() + '\'' +
+                ", annoPubblicazione=" + this.getAnnoPubblicazione() +
+                ", numeroPagine=" + this.getNumeroPagine() +
+                ", autore='" + autore + '\'' +
                 ", genere='" + genere + '\'' +
                 '}';
     }
